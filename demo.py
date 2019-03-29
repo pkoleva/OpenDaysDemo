@@ -11,6 +11,11 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
+    def test_isupper2(self):
+        print ('Test 2')
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
     def test_split(self):
         print ('Test 3')
         s = 'hello world'
