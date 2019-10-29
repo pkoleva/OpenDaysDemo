@@ -10,6 +10,11 @@ class TestStringMethods(unittest.TestCase):
         print ('Test 2')
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
+	
+    def test_isupper321(self):
+        print ('Test 2')
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
 
     def test_isupper2(self):
         print ('Test 2')
