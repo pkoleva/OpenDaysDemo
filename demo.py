@@ -12,17 +12,17 @@ class TestStringMethods(unittest.TestCase):
         self.assertFalse('Foo'.isupper())
 	
     def test_isupper321(self):
-        print ('Test 2')
+        print ('Test 3')
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
     def test_isupper2(self):
-        print ('Test 2')
+        print ('Test 4')
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
 
     def test_split(self):
-        print ('Test 3')
+        print ('Test 5')
         s = 'hello world'
         self.assertEqual(s.split(), ['hello', 'world'])
         # check that s.split fails when the separator is not a string
